@@ -1,4 +1,4 @@
-//Shift
+Ôªø//Shift
 #include<iostream>
 using namespace std;
 
@@ -15,9 +15,9 @@ void main()
 	cout << endl;
 
 
-	//÷ËÍÎË˜ÂÒÍËÈ Ò‰‚Ë„ Ï‡ÒÒË‚‡:
-	int number_of_shifts;  //ÍÓÎË˜ÂÒÚ‚Ó Ò‰‚Ë„Ó‚
-	cout << "¬‚Â‰ËÚÂ ÍÓÎË˜ÂÒÚ‚Ó Ò‰‚Ë„Ó‚:"; cin >> number_of_shifts;
+	//–¶–∏–∫–ª–∏—á–µ—Å–∫–∏–π —Å–¥–≤–∏–≥ –º–∞—Å—Å–∏–≤–∞:
+	int number_of_shifts;  //–∫–æ–ª–∏—á–µ—Å—Ç–≤–æ —Å–¥–≤–∏–≥–æ–≤
+	cout << "–í–≤–µ–¥–∏—Ç–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ —Å–¥–≤–∏–≥–æ–≤:"; cin >> number_of_shifts;
 	for (int i = 0; i < number_of_shifts; i++)
 	{
 		int buffer = arr[0];
@@ -28,7 +28,7 @@ void main()
 		arr[n - 1] = buffer;
 	}
 
-	//¬˚‚Ó‰ Ò‰‚ËÌÛÚÓ„Ó Ï‡ÒÒË‚‡ Ì‡ ˝Í‡Ì:
+	//–í—ã–≤–æ–¥ —Å–¥–≤–∏–Ω—É—Ç–æ–≥–æ –º–∞—Å—Å–∏–≤–∞ –Ω–∞ —ç–∫—Ä–∞–Ω:
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << "\t";
